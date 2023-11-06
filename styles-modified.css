@@ -18,7 +18,7 @@ body {
     margin: 20px auto;
     /* Center the CV on the page */
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 2px solid #5a0303;
     /* Border around the CV */
 }
 
@@ -42,22 +42,26 @@ header p {
 
 /* Styling for each section's title */
 h2 {
-    background-color: #f4f4f4;
+    background-color: #eeb161;
     /* Light gray background */
     padding: 10px;
     margin-bottom: 15px;
+    line-height: 1.6;
+    font-family: Georgia, Serif;
     /* Space below the title */
 }
 
 /* Styling for the contact information */
 #contact address p {
     margin-bottom: 10px;
+    
     /* Space between each piece of contact info */
 }
 
 /* Styling for the skills list */
 #skills ul {
     list-style-type: none;
+   
     /* Remove the default bullet points */
 }
 
@@ -72,6 +76,7 @@ h2 {
 /* Styling for each work experience */
 #experience article {
     margin-bottom: 15px;
+   
     /* Space between each work experience */
 }
 
